@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="388.0" prefWidth="644.0" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.backyardigans.restaurant_app.HelloController">
+    <children>
+        <VBox prefHeight="388.0" prefWidth="644.0">
+            <children>
+                <HBox prefHeight="65.0" prefWidth="644.0">
+                    <children>
+                        <Label alignment="TOP_CENTER" text="Mesero">
+                            <font>
+                                <Font size="25.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets left="280.0" top="15.0" />
+                            </HBox.margin>
+                        </Label>
+                    </children>
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                </HBox>
+                <VBox prefHeight="277.0" prefWidth="444.0">
+                    <children>
+                        <Label text="Mesero" textFill="#404463">
+                            <font>
+                                <Font name="Roboto Light" size="11.0" />
+                            </font>
+                            <VBox.margin>
+                                <Insets bottom="5.0" />
+                            </VBox.margin>
+                        </Label>
+                        <ComboBox fx:id="cbPuesto1" layoutX="10.0" layoutY="260.0" prefHeight="27.0" prefWidth="463.0" style="-fx-background-color: ffff; -fx-background-radius: 5; -fx-border-color: #8C644D;" />
+                        <Label text="Asignar mesa" textFill="#404463">
+                            <VBox.margin>
+                                <Insets top="5.0" />
+                            </VBox.margin>
+                            <font>
+                                <Font name="Roboto Light" size="11.0" />
+                            </font>
+                            <padding>
+                                <Insets top="5.0" />
+                            </padding>
+                        </Label>
+                        <ComboBox fx:id="cbPuesto11" layoutX="10.0" layoutY="31.0" prefHeight="27.0" prefWidth="463.0" style="-fx-background-color: ffff; -fx-background-radius: 5; -fx-border-color: #8C644D;" />
+                        <Label text="Mesas" textFill="#404463">
+                            <padding>
+                                <Insets bottom="5.0" top="5.0" />
+                            </padding>
+                            <font>
+                                <Font name="Roboto Light" size="11.0" />
+                            </font>
+                        </Label>
+                        <TableView prefHeight="200.0" prefWidth="200.0">
+                            <columns>
+                                <TableColumn prefWidth="366.0" text="Mesa" />
+                                <TableColumn minWidth="0.0" prefWidth="77.0" text="🗑" />
+                            </columns>
+                        </TableView>
+                    </children>
+                    <VBox.margin>
+                        <Insets left="100.0" right="100.0" />
+                    </VBox.margin>
+                </VBox>
+                <HBox prefHeight="102.0" prefWidth="644.0">
+                    <children>
+                        <Button fx:id="btnGuardar" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #8C644D;" text="Eliminar" textFill="WHITE">
+                            <font>
+                                <Font name="Roboto Light" size="12.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets bottom="20.0" left="35.0" />
+                            </HBox.margin>
+                        </Button>
+                        <Button fx:id="btnCancelar" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #D9BCA3; -fx-text-fill: white;" text="Cancelar" textFill="#404463">
+                            <font>
+                                <Font name="Roboto Light" size="12.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets bottom="20.0" left="250.0" right="20.0" />
+                            </HBox.margin>
+                        </Button>
+                        <Button fx:id="btnCancelar1" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #26150F; -fx-text-fill: white;" text="Guardar" textFill="#404463">
+                            <font>
+                                <Font name="Roboto Light" size="12.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets bottom="20.0" right="20.0" />
+                            </HBox.margin>
+                        </Button>
+                    </children>
+                    <padding>
+                        <Insets top="30.0" />
+                    </padding>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

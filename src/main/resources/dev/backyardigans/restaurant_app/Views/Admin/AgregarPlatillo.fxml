@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="388.0" prefWidth="644.0" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.backyardigans.restaurant_app.HelloController">
+    <children>
+      <VBox prefHeight="388.0" prefWidth="644.0">
+         <children>
+              <HBox prefHeight="100.0" prefWidth="588.0">
+                  <children>
+                      <Label alignment="TOP_CENTER" text="Platillo">
+                          <font>
+                              <Font size="25.0" />
+                          </font>
+                          <HBox.margin>
+                              <Insets left="280.0" top="15.0" />
+                          </HBox.margin>
+                      </Label>
+                  </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+              </HBox>
+              <VBox prefHeight="217.0" prefWidth="477.0">
+                  <children>
+                      <Label text="Categoría" textFill="#404463">
+                          <font>
+                              <Font name="Roboto Light" size="11.0" />
+                          </font>
+                          <VBox.margin>
+                              <Insets bottom="5.0" />
+                          </VBox.margin>
+                  </Label>
+                  <ComboBox fx:id="cbPuesto1" layoutX="10.0" layoutY="260.0" prefHeight="27.0" prefWidth="463.0" style="-fx-background-color: ffff; -fx-background-radius: 5; -fx-border-color: #8C644D;" />
+                      <Label text="Platillo" textFill="#404463">
+                          <VBox.margin>
+                              <Insets top="5.0" />
+                          </VBox.margin>
+                          <font>
+                              <Font name="Roboto Light" size="11.0" />
+                          </font>
+                          <padding>
+                              <Insets top="5.0" />
+                          </padding>
+                  </Label>
+                      <TextField fx:id="apellidoPaterno" prefHeight="30.0" style="-fx-background-color: fff; -fx-background-radius: 5; -fx-border-color: #8C644D;">
+                          <VBox.margin>
+      
+                              <Insets bottom="5.0" />
+                          </VBox.margin>
+                  </TextField>
+                      <Label text="Descripción" textFill="#404463">
+                          <padding>
+                              <Insets bottom="5.0" top="5.0" />
+                          </padding>
+                          <font>
+                              <Font name="Roboto Light" size="11.0" />
+                          </font>
+                  </Label>
+                      <TextField fx:id="apellidoMaterno" prefHeight="30.0" style="-fx-background-color: fff; -fx-background-radius: 5; -fx-border-color: #8C644D;">
+                          <VBox.margin>
+                              <Insets bottom="5.0" />
+                          </VBox.margin>
+                  </TextField>
+                      <Label text="Precio" textFill="#404463">
+                          <padding>
+                              <Insets top="5.0" />
+                          </padding>
+                          <font>
+                              <Font name="Roboto Light" size="11.0" />
+                          </font>
+                  </Label>
+                      <TextField fx:id="rfc" prefHeight="30.0" style="-fx-background-color: fff; -fx-background-radius: 5; -fx-border-color: #8C644D;">
+                          <VBox.margin>
+                              <Insets bottom="5.0" />
+                          </VBox.margin>
+                  </TextField>
+                  </children>
+               <VBox.margin>
+                  <Insets left="100.0" right="100.0" />
+               </VBox.margin>
+            </VBox>
+            <HBox prefHeight="102.0" prefWidth="644.0">
+               <children>
+                    <Button fx:id="btnCancelar" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #D9BCA3; -fx-text-fill: white;" text="Cancelar" textFill="#404463">
+                        <font>
+                            <Font name="Roboto Light" size="12.0" />
+                        </font>
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="385.0" right="20.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btnCancelar1" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #26150F; -fx-text-fill: white;" text="Guardar" textFill="#404463">
+                     <font>
+                        <Font name="Roboto Light" size="12.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="20.0" right="20.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets top="30.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+    </children>
+</AnchorPane>
