@@ -1,0 +1,18 @@
+.menu-button {
+    -fx-background-color: #d3d3d3;
+    -fx-background-radius: 10;
+    -fx-font-size: 14;
+    -fx-text-fill: #404463;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.menu-button:hover {
+    -fx-background-color: #bababa;
+}
+
+.boton-cantidad {
+    -fx-background-color: transparent;
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
